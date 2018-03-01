@@ -6,9 +6,9 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import org.junit.jupiter.api.Test;
 
-/*************************************************
+/**************************************************
  * 
- * @author:      Jon Swiatkowski
+ * @author:      Jon Swiatkowski  
  * @Title:       JUnit Testing
  * @Description: These test cases were created with 
  *               EclipseEmma for the Dungeon_Crawler Package.
