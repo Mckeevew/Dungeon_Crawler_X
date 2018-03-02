@@ -14,7 +14,7 @@ public class Fireball extends GameObject {
 	/**
 	 * Variable holds referance to handler for later use
 	 */
-	 private Handler handler;
+	 protected Handler handler;
 	
 	 /**
 	  * Fireball Constructor

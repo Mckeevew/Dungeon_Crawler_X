@@ -18,7 +18,7 @@ public class Ghost extends GameObject{
 	 private Random rand;
 	
 	//Ghost "steps" variable
-	private int steps = 0;
+	protected int steps = 0;
 	
 	//Ghost health
 	private static int HEALTH = 100;

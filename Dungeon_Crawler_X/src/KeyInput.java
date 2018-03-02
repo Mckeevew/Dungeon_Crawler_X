@@ -11,7 +11,7 @@ import java.awt.event.KeyEvent;
 public class KeyInput extends KeyAdapter{
 
 	//Store handler for KeyInput use
-	private Handler handler;
+	protected Handler handler;
 	
 	//Store sprite sheet.
 	//Not used Yet

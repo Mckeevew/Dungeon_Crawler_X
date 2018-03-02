@@ -1,23 +1,14 @@
-import static org.junit.Assert.fail;
 import static org.junit.jupiter.api.Assertions.*;
-import java.awt.image.BufferedImage;
+
 import java.awt.Rectangle;
-import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+
 import org.junit.jupiter.api.Test;
 
-/**************************************************
- * 
- * @author:      Jon Swiatkowski  
- * @Title:       JUnit Testing
- * @Description: These test cases were created with 
- *               EclipseEmma for the Dungeon_Crawler Package.
- *
- **************************************************/
+class junit_Test_Cases {
 
-class junit_Test_Cases extends KeyAdapter {
-	
-	public Game g = new Game();  
+public Game g = new Game();  
 	
 	BufferedImage b = new BufferedImage(5,5,5);
 	SpriteSheet ss = new SpriteSheet(b);
@@ -37,7 +28,7 @@ class junit_Test_Cases extends KeyAdapter {
 	void fireball_path_test() {
 	
 		Rectangle R = new Rectangle(1,-4,16,16);
-		f.handler.object.add(B);
+	//	f.handler.object.add(B);
 		
 		//move fireball one pace
 		f.tick();
@@ -352,5 +343,6 @@ class junit_Test_Cases extends KeyAdapter {
     	fail("An Image should not have been loaded in.");
     	
     }
+
 
 }

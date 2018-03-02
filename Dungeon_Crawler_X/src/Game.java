@@ -24,7 +24,7 @@ public class Game extends Canvas implements Runnable{
 	 */
 	private boolean running = false;
 	private static Game game;
-	private Handler handler;
+	protected Handler handler;
 	private Thread thread;
 	private HUD hud;
 	private GameScreen gameScreen;

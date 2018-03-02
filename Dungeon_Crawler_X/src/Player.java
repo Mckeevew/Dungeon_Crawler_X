@@ -11,7 +11,7 @@ import java.awt.Rectangle;
 public class Player extends GameObject {
 
 	//Store handler for later use
-	private Handler handler;
+	protected Handler handler;
 	
 	//Store last key entered by user
 	//Used to show character direction to face

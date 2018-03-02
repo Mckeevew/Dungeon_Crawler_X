@@ -18,10 +18,10 @@ public class BasicEnemy extends GameObject{
 	 * random set up for its movement, and its hp.
 	 * 
 	 */
-	 private Handler handler;
+	 protected Handler handler;
 	 private Random rand = new Random();
 	 private int choose = 0;
-	 private int hp = 100;
+	 protected int hp = 100;
 	
 	 /**
 	  * BasicEnemy Constructor
