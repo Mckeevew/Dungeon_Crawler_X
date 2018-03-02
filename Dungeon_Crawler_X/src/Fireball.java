@@ -57,6 +57,7 @@ public class Fireball extends GameObject {
 	  * Collisions use the objects rectangle as a its hitbox.
 	  */
 	 private void collision() {
+
 			for(int i = 0;i < handler.object.size(); i++) {
 				GameObject tempObject = handler.object.get(i);
 				if(tempObject.getID() == ID.Block) {
